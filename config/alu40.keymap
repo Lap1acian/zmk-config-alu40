@@ -67,8 +67,6 @@
    &trans         &trans      &trans      &trans      &trans      &trans             &trans           &trans      &trans  &kp UNDERSCORE       &kp PLUS    &trans
    &trans         &trans      &trans      &trans       &mo 3      &trans             &trans           &trans    &kp HOME       &kp PG_UP  &kp PAGE_DOWN   &kp END
             >;
-
-            sensor-bindings = <&inc_dec_kp C_BRI_DEC C_BRI_INC>;
         };
 
         control {
