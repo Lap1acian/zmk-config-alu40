@@ -42,10 +42,10 @@
             // | PLAY  | LCTL | LALT | LGUI | LOWR |     SPACE    |  RAIS | LARW | UARW | DARW  |  RARW |
 
             bindings = <
-         &kp TAB      &kp Q     &kp W     &kp E  &kp R      &kp T      &kp Y  &kp U      &kp I    &kp O     &kp P       &kp BSPC
-&kp LEFT_CONTROL      &kp A     &kp S     &kp D  &kp F      &kp G      &kp H  &kp J      &kp K    &kp L  &kp SEMI        &kp SQT
-       &kp LSHFT      &kp Z     &kp X     &kp C  &kp V      &kp B      &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RSHFT RET
-       &lt 4 ESC  &kp LCTRL  &kp LALT  &kp LGUI  &mo 1  &kp SPACE  &kp SPACE  &mo 2   &kp LEFT   &kp UP  &kp DOWN      &kp RIGHT
+         &kp TAB      &kp Q     &kp W     &kp E  &kp R      &kp T          &kp Y  &kp U      &kp I           &kp O         &kp P       &kp BSPC
+&kp LEFT_CONTROL      &kp A     &kp S     &kp D  &kp F      &kp G          &kp H  &kp J      &kp K           &kp L      &kp SEMI        &kp SQT
+       &kp LSHFT      &kp Z     &kp X     &kp C  &kp V      &kp B          &kp N  &kp M  &kp COMMA         &kp DOT      &kp FSLH  &mt RSHFT RET
+       &lt 4 ESC  &kp LCTRL  &kp LALT  &kp LGUI  &mo 1  &kp SPACE  &kp BACKSPACE  &mo 2   &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT
             >;
         };
 
@@ -62,10 +62,10 @@
 
         raise {
             bindings = <
-&kp GRAVE     &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)         &kp LS(N6)       &kp LS(N7)  &kp LS(N8)      &kp LS(N9)     &kp LS(N0)  &kp BSPC
-   &trans  &kp LS(GRAVE)    &kp HASH   &kp SLASH   &bracelet    &bracket  &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp BSLH       &kp MINUS      &kp EQUAL  &kp PIPE
-   &trans         &trans      &trans      &trans      &trans      &trans             &trans           &trans      &trans  &kp UNDERSCORE       &kp PLUS    &trans
-   &trans         &trans      &trans      &trans       &mo 3      &trans             &trans           &trans    &kp HOME       &kp PG_UP  &kp PAGE_DOWN   &kp END
+&kp GRAVE     &kp LS(N1)  &kp LS(N2)    &kp LS(N3)      &kp LS(N4)        &kp LS(N5)         &kp LS(N6)       &kp LS(N7)  &kp LS(N8)      &kp LS(N9)     &kp LS(N0)  &kp BSPC
+   &trans  &kp LS(GRAVE)    &kp HASH     &kp SLASH  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE    &kp BSLH       &kp MINUS      &kp EQUAL  &kp PIPE
+   &trans         &trans      &trans  &PARENTHESIS       &bracelet          &bracket             &trans           &trans      &trans  &kp UNDERSCORE       &kp PLUS    &trans
+   &trans         &trans      &trans        &trans           &mo 3            &trans             &trans           &trans    &kp HOME       &kp PG_UP  &kp PAGE_DOWN   &kp END
             >;
         };
 
