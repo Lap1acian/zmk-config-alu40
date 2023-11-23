@@ -102,9 +102,9 @@
 
         Meh_layer {
             bindings = <
-&trans  &kp LA(LC(LG(F1)))  &kp LA(LC(LG(F2)))   &kp LA(LC(LG(F3)))   &kp LA(LC(LG(F4)))   &trans  &trans             &trans             &trans             &trans             &trans  &trans
-&trans  &kp LA(LC(LG(F5)))  &kp LA(LC(LG(F6)))   &kp LA(LC(LG(F7)))   &kp LA(LC(LG(F8)))   &trans  &kp LA(LC(LG(H)))  &kp LA(LC(LG(J)))  &kp LA(LC(LG(K)))  &kp LA(LC(LG(L)))  &trans  &trans
-&trans  &kp LA(LC(LG(F9)))  &kp LA(LC(LG(F10)))  &kp LA(LC(LG(F11)))  &kp LA(LC(LG(F12)))  &trans  &trans             &trans             &trans             &trans             &trans  &trans
+&trans  &kp LA(LC(LS(F1)))  &kp LA(LC(LS(F2)))   &kp LA(LC(LS(F3)))   &kp LA(LC(LS(F4)))   &trans  &trans             &trans             &trans             &trans             &trans  &trans
+&trans  &kp LA(LC(LS(F5)))  &kp LA(LC(LS(F6)))   &kp LA(LC(LS(F7)))   &kp LA(LC(LS(F8)))   &trans  &kp LA(LC(LS(H)))  &kp LA(LC(LS(J)))  &kp LA(LC(LS(K)))  &kp LA(LC(LS(L)))  &trans  &trans
+&trans  &kp LA(LC(LS(F9)))  &kp LA(LC(LS(F10)))  &kp LA(LC(LS(F11)))  &kp LA(LC(LS(F12)))  &trans  &trans             &trans             &trans             &trans             &trans  &trans
 &trans  &trans              &trans               &trans               &trans               &trans  &trans             &trans             &trans             &trans             &trans  &trans
             >;
         };
