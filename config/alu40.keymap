@@ -93,19 +93,19 @@
 
         Hyper_layer {
             bindings = <
-&trans                 &kp LG(LC(LA(LS(F1))))  &kp LS(LA(LC(LG(F2))))   &kp LS(LA(LC(LG(F3))))   &kp LS(LA(LC(LG(F4))))   &kp LS(LA(LC(LG(T))))    &trans                   &trans                 &trans                 &trans                 &trans  &trans
-&kp LS(LA(LC(LG(C))))  &kp LS(LC(LA(LG(F5))))  &kp LS(LA(LC(LG(F6))))   &kp LS(LA(LC(LG(F7))))   &kp LS(LA(LC(LG(F8))))   &trans                   &kp LS(LA(LC(LG(H))))    &kp LS(LA(LC(LG(J))))  &kp LS(LA(LC(LG(K))))  &kp LS(LA(LC(LG(L))))  &trans  &trans
-&kp LS(LA(LC(LG(V))))  &kp LS(LA(LC(LG(F9))))  &kp LS(LA(LC(LG(F10))))  &kp LS(LA(LC(LG(F11))))  &kp LS(LA(LC(LG(F12))))  &kp LS(LA(LC(LG(F13))))  &kp LS(LA(LC(LG(F14))))  &trans                 &trans                 &trans                 &trans  &trans
-&kp LS(LA(LC(LG(X))))  &kp LS(LA(LC(LG(Y))))   &kp LS(LA(LC(LG(R))))    &kp LS(LA(LC(LG(B))))    &trans                   &trans                   &trans                   &trans                 &trans                 &trans                 &trans  &trans
+&trans                 &kp LG(LC(LA(LS(F1))))   &kp LS(LA(LC(LG(F2))))   &kp LS(LA(LC(LG(F3))))   &kp LS(LA(LC(LG(F4))))   &kp LS(LA(LC(LG(F5))))   &trans                 &trans                 &trans                 &trans                 &trans  &trans
+&kp LS(LA(LC(LG(C))))  &kp LS(LC(LA(LG(F6))))   &kp LS(LA(LC(LG(F7))))   &kp LS(LA(LC(LG(F8))))   &kp LS(LA(LC(LG(F9))))   &kp LS(LA(LC(LG(F10))))  &kp LS(LA(LC(LG(H))))  &kp LS(LA(LC(LG(J))))  &kp LS(LA(LC(LG(K))))  &kp LS(LA(LC(LG(L))))  &trans  &trans
+&kp LS(LA(LC(LG(V))))  &kp LS(LA(LC(LG(F11))))  &kp LS(LA(LC(LG(F12))))  &kp LS(LA(LC(LG(F13))))  &kp LS(LA(LC(LG(F14))))  &kp LS(LA(LC(LG(T))))    &kp LS(LA(LC(LG(R))))  &trans                 &trans                 &trans                 &trans  &trans
+&trans                 &kp LS(LA(LC(LG(X))))    &kp LS(LA(LC(LG(Y))))    &kp LS(LA(LC(LG(B))))    &trans                   &trans                   &trans                 &trans                 &trans                 &trans                 &trans  &trans
             >;
         };
 
         Meh_layer {
             bindings = <
-&trans  &kp LA(LC(LS(F1)))  &kp LA(LC(LS(F2)))   &kp LA(LC(LS(F3)))   &kp LA(LC(LS(F4)))   &trans  &trans             &trans             &trans             &trans             &trans  &trans
-&trans  &kp LA(LC(LS(F5)))  &kp LA(LC(LS(F6)))   &kp LA(LC(LS(F7)))   &kp LA(LC(LS(F8)))   &trans  &kp LA(LC(LS(H)))  &kp LA(LC(LS(J)))  &kp LA(LC(LS(K)))  &kp LA(LC(LS(L)))  &trans  &trans
-&trans  &kp LA(LC(LS(F9)))  &kp LA(LC(LS(F10)))  &kp LA(LC(LS(F11)))  &kp LA(LC(LS(F12)))  &trans  &trans             &trans             &trans             &trans             &trans  &trans
-&trans  &trans              &trans               &trans               &trans               &trans  &trans             &trans             &trans             &trans             &trans  &trans
+&trans  &kp LA(LC(LS(F1)))   &kp LA(LC(LS(F2)))   &kp LA(LC(LS(F3)))   &kp LA(LC(LS(F4)))   &kp LA(LC(LS(F5)))   &trans             &trans             &trans             &trans             &trans  &trans
+&trans  &kp LA(LC(LS(F6)))   &kp LA(LC(LS(F7)))   &kp LA(LC(LS(F8)))   &kp LA(LC(LS(F9)))   &kp LA(LC(LS(F10)))  &kp LA(LC(LS(H)))  &kp LA(LC(LS(J)))  &kp LA(LC(LS(K)))  &kp LA(LC(LS(L)))  &trans  &trans
+&trans  &kp LA(LC(LS(F11)))  &kp LA(LC(LS(F12)))  &kp LA(LC(LS(F13)))  &kp LA(LC(LS(F14)))  &trans               &trans             &trans             &trans             &trans             &trans  &trans
+&trans  &trans               &trans               &trans               &trans               &trans               &trans             &trans             &trans             &trans             &trans  &trans
             >;
         };
     };
